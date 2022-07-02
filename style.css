@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300&display=swap');
+
+
+/*  Reset Box sizing */
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+/*  Reset margins */
+body, h1, h2, h3, h4, h5, p {
+	margin: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	min-height: 100vh;
+}
+
+/* Header */
+.header {
+	background: #1f2937;
+	color: #f9faf8;
+	width: 100%;
+	/* height: 30%; */
+}
+/* Nav bar */
+.nav-bar {
+	width: 75%;
+	/* height: 30%; */
+	margin: 0 auto;
+	padding: 10px 0;
+	display: flex;
+	justify-content: flex-end;
+}
+.logo {
+	font-size: 24px;
+	color: #f9faf8;
+	margin-right: auto;
+	font-weight: 500;
+}
+.links {
+	padding: 10px;
+	font-weight: 300;
+	font-size: 18px;
+	color: #e5e7eb;
+}
+/* Container */
+.header .container {
+	width: 75%;
+	height: 435px;
+	margin: 0 auto;
+	padding: 100px 0;
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+}
+.header .container div {
+	flex: 1;
+}
+/* Title */
+.title h1{
+	color: #f9faf8;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 1.2;
+}
+.title p {
+	color: #e5e7eb;
+	font-weight: 300;
+	font-size: 18px;
+	margin: 0 0 10px 0;
+}
+.title button {
+	background: #3882f6;
+	color: #e5e7eb;
+	font-size: 18px;
+	padding: 5px 45px;
+	border-radius: 8px;
+	border-style: none;
+}
+/* image */
+.header .container .image {
+	/* width: 400px;
+	height: 400px; */
+	background: #777;
+	text-align: center;
+}
+
+/* Info section */
+.info-section .container {
+	width: 65%;
+	height: 450px;
+	margin: 0 auto;
+}
+.info-section h2 {
+	color: #1f2937;
+	font-size: 36px;
+	font-weight: 700;
+	text-align: center;
+	margin: 35px 0;
+}
+.info-section .images-info {
+	width: 100%;
+	margin: 50px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.info-section .image-info {
+	width: 180px;
+}
+.info-section .image {
+	width: 180px;
+	height: 180px;
+	border: 5px solid #3882f6;
+	border-radius: 20px;
+}
+.info-section .text {
+	font-weight: 300;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+/* Quote section */
+.quote-section {
+	background: #e5e7eb;
+	width: 100%;
+}
+.quote-section .container {
+	width: 65%;
+	height: 450px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.quote-section .quote {
+	color: #1f2937;
+	font-size: 38px;
+	font-style: italic;
+	font-weight: 100;
+	margin: 0;
+}
+.quote-section .author {
+	font-size: 24px;
+	font-weight: 700;
+	text-align: right;
+}
+
+/* Call to action section */
+.cta-section {
+	width: 80%;
+	height: 142px;
+	margin: 80px auto;
+}
+.cta-section .container {
+	width: 100%;
+	background: #3882f6;
+	border-radius: 10px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 40px 0;
+}
+.cta-section h2 {
+	color: #f9faf8;
+	font-size: 28px;
+	font-weight: 500;
+}
+.cta-section p {
+	color: #e5e7eb;
+	font-weight: 300;
+	font-size: 16px;
+}
+.cta-section .cta-btn {
+	border: 2px solid #fff;
+	border-radius: 10px;
+	background: #3882f6;
+	color: #fff;
+	font-size: 18px;
+	padding: 5px 0;
+	font-weight: 500;
+	width: 150px;
+}
+
+/* Footer */
+.footer {
+	background: #1f2937;
+	color: #f9faf8;
+	width: 100%;
+}
+.footer .copyright {
+	padding: 30px 0;
+	text-align: center;
+	font-weight: 300;
+	font-size: 18px;
+}
